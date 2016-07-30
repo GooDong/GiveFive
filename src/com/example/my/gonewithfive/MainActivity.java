@@ -32,7 +32,8 @@ import com.example.my.utils.DialogUtil;
 import com.example.my.utils.FileUtils;
 import com.example.my.view.GameView;
 /**
- * 游戏活动的主窗口
+ * 
+ * 五子连珠 游戏活动的主窗口
  * @author 石广洞
  * @since 2015-11-2
  * */
@@ -332,6 +333,7 @@ private void startAnim(final int flag, long time){
 	/**
 	 * 监听是不是按返回键
 	 * */
+	@SuppressWarnings("deprecation")
 	public void onBackPressed(){
 		
 		timeRecoder = System.currentTimeMillis() - timeRecoder;

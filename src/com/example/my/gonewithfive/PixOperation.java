@@ -125,6 +125,7 @@ public class PixOperation extends View implements Runnable {
 		return false;
 	}
 
+	@SuppressWarnings("deprecation")
 	@Override
 	protected void onDraw(Canvas canvas) {
 		super.onDraw(canvas);
