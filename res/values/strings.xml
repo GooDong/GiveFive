@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GiveMeFiveOrMore</string>
+    
+    <string name="hist_score">最好分数：</string>
+    <string name="total_score">当前分数：</string>
+    
+    <string name="settings">设置</string>
+    <string name="music_settings">音乐设置</string>
+    <string name="sound_settings">音效设置</string>
+    
+    <string name="exit_settings">游戏退出</string>
+    <string name="restart_settings">重新开始</string>
+    
+    <string name="m_start">开启音乐</string>
+    <string name="m_close">关闭音乐</string>
+    
+    <string name="s_start">开启音效</string>
+    <string name="s_close">关闭音效</string>
+	
+    
+</resources>

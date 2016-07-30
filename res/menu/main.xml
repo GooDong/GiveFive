@@ -1,0 +1,86 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:title="@string/settings"
+        android:showAsAction="always|withText"
+        android:icon="@drawable/btn_setting"
+        >
+    	<menu>
+    	    
+		    <item
+		        android:icon="@drawable/btn_sound"
+		        android:orderInCategory="1"
+		        android:showAsAction="ifRoom|withText"
+		        android:title="@string/music_settings">
+		        <menu>
+		
+		            <!-- all : checkbox   single : radio -->
+		            <group android:checkableBehavior="single" >
+		                <item
+		                    android:id="@+id/m_start"
+		                    android:title="@string/m_start">
+		                </item>
+		                <item
+		                    android:id="@+id/m_close"
+		                    android:checked="true"
+		                    android:title="@string/m_close">
+		                </item>
+		            </group>
+		        </menu>
+		    </item>
+		    
+		    <item
+		        android:icon="@drawable/btn_music"
+		        android:orderInCategory="2"
+		        android:showAsAction="ifRoom|withText"
+		        android:title="@string/sound_settings">
+		        <menu>
+		            <group android:checkableBehavior="single" >
+		                <item
+		                    android:id="@+id/s_start"
+		                    android:title="@string/s_start">
+		                </item>
+		                <item
+		                    android:id="@+id/s_close"
+		                    android:checked="true"
+		                    android:title="@string/s_close">
+		                </item>
+		            </group>
+		        </menu>
+		    </item>
+		    
+		    <item
+		        android:id="@+id/menu_close" 
+		        android:orderInCategory="3"
+		        android:title="@string/exit_settings"
+		        android:icon="@drawable/btn_exit"
+		        android:showAsAction="ifRoom|withText"
+		        />
+		    
+		    <item
+		        android:id="@+id/menu_restart" 
+		        android:orderInCategory="4"
+		        android:title="@string/restart_settings"
+		        android:icon="@drawable/btn_restart"
+		        android:showAsAction="ifRoom|withText"
+		        />
+		    
+			</menu>
+		</item>
+</menu>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

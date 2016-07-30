@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/background_water"
+	android:id="@+id/rel"  
+    tools:context="com.example.my.gonewithfive.MainActivity"
+    >
+	
+    
+    <TextView
+			android:id="@+id/main_title"
+            android:layout_width="fill_parent"
+        	android:layout_height="42dp"
+        	android:textIsSelectable="true"
+        	/>
+    
+	<com.example.my.view.GameView
+	    android:id="@+id/gameView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_above="@+id/lin_in"
+	    android:layout_below="@id/main_title" />
+
+	<LinearLayout
+        android:id="@+id/lin_in"
+        android:layout_width="fill_parent"
+        android:layout_height="128dp"
+        android:background="@drawable/background_water0"
+        android:baselineAligned="false"
+        android:layout_alignParentBottom="true"
+		>
+    </LinearLayout>
+    
+</RelativeLayout >
